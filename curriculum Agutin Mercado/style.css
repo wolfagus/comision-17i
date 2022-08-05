@@ -1,0 +1,74 @@
+.main{
+   /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/575/494/small/3d-gray-background-product-display-podium-scene-with-leaf-geometric-platform-grey-background-3d-render-with-podium-stand-to-show-cosmetic-product-stage-showcase-on-pedestal-display-white-vector.jpg);*/
+    background-color: #888;
+}
+h2{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 17px;
+    color:rgb(0, 0, 0);
+}
+
+.bg-body{
+    background-color: #888;
+}
+
+.bg-card{
+    background-color: #eee !important;
+}
+.contacto{
+    background-color: rgb(96, 97, 95);
+}
+
+#imgLogo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.iconos{
+    color: rgb(31, 93, 228);
+}
+
+.wp{
+    color: #0a0;
+}
+
+.foto{
+    width: 180px;
+    border-radius: 5%;
+    margin-left: 20px;
+    border: #333 solid;
+}
+p{
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bgGclaro{
+    background-color: #888;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.td-none:hover{
+    color: #666 !important;
+}
+
+.color-principal {
+    background-color: rgb(207, 60, 60);
+}
+
+.borderr{
+    border-radius: 50%;
+}
+
+
+@media (min-width: 800px){
+    .foto{
+        width: 220px;
+    }
+}

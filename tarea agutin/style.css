@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+
+
+.dFlex{
+    display: flex;
+}
+.jcCenter{
+    justify-content: center;
+}
+.textAcenter{
+    text-align: center;
+}
+.borderRadius5{
+    border-radius: 5%;
+    box-shadow: 15%;
+}
+a {
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    background-color: #444;
+    padding: 50px 0px;
+}
+
+.divLogo{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 70px;
+}
+
+header ul{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+
+.botonesNav{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botonesNav:hover{
+    color: #888;
+}
+
+.botonHamburguesa{
+    display: none;
+}
+.main{
+    background: rgb(35,110,111);
+background: linear-gradient(0deg, rgba(35,110,111,1) 0%, rgba(45,94,75,1) 72%, rgba(80,66,37,1) 100%);
+}
+
+.sectionPrincipal {
+    padding: 100px 15px;
+    display: flex;
+}
+
+.imagenPrincipal{
+    width: 30%;
+    margin: 10px;
+}
+
+.textoImgPrincipal{
+    width: 75%;
+    margin-left: 25px;
+    color: #000;
+    font-weight: bold;
+}
+
+.formulario{
+    background-color: rgb(136, 158, 170);
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+
+.TextCenter{
+    text-align: center;
+}
+
+.boton{
+    padding: 5px;
+    background-color: rgb(109, 123, 128);
+    color: rgb(255, 254, 254);
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+
+
+/* FOOTER------------------------------------*/
+.footer{
+    background-color: #444;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logoFaceFooter{
+    color: rgb(54, 113, 231);
+    font-size: 24px;
+    margin: 5px;
+}
+
+.logoInstaFooter{
+    color: rgb(194, 78, 194);
+    font-size: 24px;
+    margin: 5px;
+}
+
+.logoTwitterFooter{
+    color: #5af;
+    font-size: 24px;   
+    margin: 5px; 
+}
+
+
+
+@media screen and (max-width: 430px) {
+    header{
+        width: 100%;
+    }
+    .divLogo{
+        top: 30px;
+    }
+    .botonesNav{
+        display: none;
+
+    }
+    .botonHamburguesa{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+   
+    }
+    .sectionPrincipal{
+        flex-direction: column;
+    }
+    .textoImgPrincipal{
+        width: 90%;
+    }
+    .imagenPrincipal{
+        width: 70%;
+    }
+}
+
+
+
+/* Explorar----------------------------------------------*/
+
+.h2galeria{
+    background-color: rgb(65, 177, 197);
+    margin: 0%;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.galeria{
+    background-color: rgb(147, 77, 156);
+}
+.imagenGaleria{
+    width: 280px;
+    margin: 5px 15px;
+}
+
+

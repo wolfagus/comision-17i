@@ -1,0 +1,36 @@
+*{
+   box-sizing: border-box; 
+}
+
+body{
+    background: #eee;
+}
+.img-carousel{
+    height: 600px;
+    object-fit: cover;
+}
+
+.img-card {
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/* imagen background de la section*/
+.bg-img-section{
+    background-image: url(https://pbs.twimg.com/media/DuTXMT7W0AAa6GO.jpg:large);
+    width: 100%;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.shadow-bl{
+    box-shadow: 5px 8px 15px black;
+}
